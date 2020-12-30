@@ -22,5 +22,5 @@ urlpatterns = [
 ]
 urlpatterns += [
     # path('', include('meds.urls')),
-    path('', include('polls.urls')),
+    path('polls/', include('polls.urls')),
 ]
