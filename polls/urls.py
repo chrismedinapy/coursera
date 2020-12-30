@@ -3,7 +3,7 @@ from django.urls import path
 from polls import views
 
 urlpatterns = [
-    path('polls', views.index, name='polls'),
+    path('', views.index, name='polls'),
     path('polls/owner', views.owner, name='owner'),
     # path('polls', views.owner, name='polls'),
     # path('<int:question_id>/', views.detail, name='detail'),
